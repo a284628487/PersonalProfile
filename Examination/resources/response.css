@@ -8,6 +8,9 @@ ul, li {
     list-style: none;
 }
 
+.header-container {
+}
+
 .header {
     position: relative;
     height: 64px;
@@ -250,6 +253,11 @@ ul, li {
 /** mobile */
 @media only screen and (max-width: 768px) {
 
+    .header-container {
+        position: fixed;
+        height: 48px;
+    }
+
     .header {
         position: relative;
         display: flex;
@@ -272,7 +280,7 @@ ul, li {
     }
 
     .title {
-        min-width: 240px;
+        /*min-width: 240px;*/
         flex: 1;
     }
 
@@ -317,8 +325,9 @@ ul, li {
 
     .examination {
         display: block;
-        height: calc(100% - 48px);
-        /*overflow-y: scroll;*/
+        height: calc(100% - 72px);
+        overflow-y: scroll;
+        padding-top: 48px;
     }
 
     .user-info {
@@ -341,12 +350,12 @@ ul, li {
 
 /** small mobile */
 /*@media only screen and (max-width: 480px) {*/
-    /*.time-left > div,*/
-    /*.progress > div {*/
-        /*padding-left: 8px;*/
-        /*line-height: 48px;*/
-        /*font-size: 14px;*/
-    /*}*/
+/*.time-left > div,*/
+/*.progress > div {*/
+/*padding-left: 8px;*/
+/*line-height: 48px;*/
+/*font-size: 14px;*/
+/*}*/
 /*}*/
 
 /** smallest mobile */
