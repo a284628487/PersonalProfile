@@ -399,6 +399,11 @@ ul, li {
         font-size: 14px;
     }
 
+    .time-left > div:last-child,
+    .progress > div:last-child {
+        padding-left: 0px;
+    }
+
     .control {
         width: 96px;
         height: inherit;
