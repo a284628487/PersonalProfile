@@ -159,9 +159,6 @@ ul, li {
 @media only screen and (min-width: 769px) {
 
     .profile-container {
-        /*position: fixed;*/
-        /*width: inherit;*/
-        /*height: 64px;*/
     }
 
     .profile {
@@ -254,6 +251,9 @@ ul, li {
 @media only screen and (max-width: 768px) {
 
     .header-container {
+        right: 0px;
+        top: 0px;
+        left: 0px;
         position: fixed;
         height: 48px;
     }
